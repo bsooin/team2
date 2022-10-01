@@ -448,8 +448,8 @@ public class ServiceController {
 					+ "&total_amount="+totalAmount // 총 금액
 					+ "&vat_amount=0" // 부가세
 					+ "&tax_free_amount=0" // 상품 비과세 금액
-					+ "&approval_url=http://localhost:8080/order/orderSuccess" // 결제 성공 시
-					+ "&fail_url=http://localhost:8080/order/orderFail" // 결제 실패 시
+					+ "&approval_url=http://localhost:8080/my/mydeal" // 결제 성공 시
+					+ "&fail_url=http://localhost:8080/main/index" // 결제 실패 시
 					+ "&cancel_url=http://localhost:8080/main/index"; // 결제 취소 시
 			OutputStream send = connection.getOutputStream(); // 이제 뭔가를 를 줄 수 있다.
 			DataOutputStream dataSend = new DataOutputStream(send); // 이제 데이터를 줄 수 있다.

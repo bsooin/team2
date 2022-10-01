@@ -51,12 +51,12 @@
 					<tr>
 						<th>* 카테고리</th>
 						<td><select name="categoryNo" style="width: 150px;">
-								<option value="1">카테고리 1</option>
-								<option value="2">카테고리 2</option>
-								<option value="3">카테고리 3</option>
-								<option value="4">카테고리 4</option>
-								<option value="5">카테고리 5</option>
-								<option value="6">카테고리 6</option>
+								<option value="1">디자인/그래픽</option>
+								<option value="2">컴퓨터/개발</option>
+								<option value="3">음악/영상</option>
+								<option value="4">생활/노하우</option>
+								<option value="5">번역/외국어</option>
+								<option value="6">주문제작</option>
 						</select>
 					</tr>
 					<tr>

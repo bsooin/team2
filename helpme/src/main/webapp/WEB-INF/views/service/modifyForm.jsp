@@ -51,12 +51,12 @@
 							<th>* 카테고리</th>
 							<td><select name="categoryNo" style="width: 150px; height:30px; font-size: 13px; text-indent: 7px;" value="${service.getCategoryNo()}">
 									
-									<option value="1" <c:if test="${service.categoryNo eq 1}">selected</c:if>>카테고리 1</option>
-									<option value="2" <c:if test="${service.categoryNo eq 2}">selected</c:if>>카테고리 2</option>
-									<option value="3" <c:if test="${service.categoryNo eq 3}">selected</c:if>>카테고리 3</option>
-									<option value="4" <c:if test="${service.categoryNo eq 4}">selected</c:if>>카테고리 4</option>
-									<option value="5" <c:if test="${service.categoryNo eq 5}">selected</c:if>>카테고리 5</option>
-									<option value="6" <c:if test="${service.categoryNo eq 6}">selected</c:if>>카테고리 6</option>
+									<option value="1" <c:if test="${service.categoryNo eq 1}">selected</c:if>>디자인/그래픽</option>
+									<option value="2" <c:if test="${service.categoryNo eq 2}">selected</c:if>>컴퓨터/개발</option>
+									<option value="3" <c:if test="${service.categoryNo eq 3}">selected</c:if>>음악/영상</option>
+									<option value="4" <c:if test="${service.categoryNo eq 4}">selected</c:if>>생활/노하우</option>
+									<option value="5" <c:if test="${service.categoryNo eq 5}">selected</c:if>>번역/외국어</option>
+									<option value="6" <c:if test="${service.categoryNo eq 6}">selected</c:if>>주문제작</option>
 									
 							</select> 
 							
